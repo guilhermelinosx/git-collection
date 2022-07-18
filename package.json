@@ -1,7 +1,7 @@
 {
   "name": "gitcollection",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
@@ -34,6 +34,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "axios": "^0.27.2",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

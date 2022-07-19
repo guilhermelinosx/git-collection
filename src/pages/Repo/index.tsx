@@ -29,7 +29,7 @@ interface GithubIssue {
 		login: string
 	}
 }
-export const Repo = () => {
+const Repo = () => {
 	const { params } = useRouteMatch<RepositoryParams>()
 
 	const [repository, setRepository] = React.useState<GithubRepository | null>(
@@ -100,3 +100,5 @@ export const Repo = () => {
 		</>
 	)
 }
+
+export default Repo

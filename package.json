@@ -1,12 +1,12 @@
 {
   "name": "gitcollection",
   "version": "0.0.1",
-  "private": false,
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+		"analyzer": "yarn build && yarn cra-bundle-analyzer"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +50,7 @@
     "@types/styled-components": "^5.1.25",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
+    "cra-bundle-analyzer": "^0.1.1",
     "eslint": "^8.19.0",
     "eslint-plugin-react": "^7.30.1"
   }

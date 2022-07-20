@@ -15,4 +15,4 @@ yarn install
 npm install
 ```
 
-Após essa instalação execute a aplicação com o comando `yarn start` ou `npm run start`. O servidor estará em execução no endereço `http://localhost:3001`.
+Após essa instalação execute a aplicação com o comando `yarn start` ou `npm run start`. O servidor estará em execução no endereço `http://localhost:3000`.

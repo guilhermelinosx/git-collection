@@ -6,7 +6,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-		"analyzer": "yarn build && yarn cra-bundle-analyzer"
+    "analyzer": "yarn build && yarn cra-bundle-analyzer"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +52,9 @@
     "@typescript-eslint/parser": "^5.30.6",
     "cra-bundle-analyzer": "^0.1.1",
     "eslint": "^8.19.0",
-    "eslint-plugin-react": "^7.30.1"
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-prettier": "3.2.0",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.7.1"
   }
 }
